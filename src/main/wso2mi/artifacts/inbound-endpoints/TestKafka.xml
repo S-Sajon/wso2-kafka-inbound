@@ -14,6 +14,7 @@
     <parameter name="key.deserializer">org.apache.kafka.common.serialization.StringDeserializer</parameter>
     <parameter name="value.deserializer">org.apache.kafka.common.serialization.StringDeserializer</parameter>
     <parameter name="enable.auto.commit">true</parameter>
+    <parameter name="auto.commit.interval.ms">5000</parameter>
     <parameter name="auto.offset.reset">latest</parameter>
     <parameter name="exclude.internal.topics">true</parameter>
     <parameter name="check.crcs">true</parameter>
