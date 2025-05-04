@@ -2,7 +2,7 @@
 <localEntry key="KafkaTest" xmlns="http://ws.apache.org/ns/synapse">
   <kafkaTransport.init>
     <connectionType>KAFKA</connectionType>
-    <bootstrapServers>localhost:9092</bootstrapServers>
+    <bootstrapServers>172.16.2.146:9092</bootstrapServers>
     <keySerializerClass>org.apache.kafka.common.serialization.StringSerializer</keySerializerClass>
     <valueSerializerClass>org.apache.kafka.common.serialization.StringSerializer</valueSerializerClass>
     <poolingEnabled>false</poolingEnabled>
